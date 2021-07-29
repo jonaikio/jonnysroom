@@ -9,9 +9,9 @@
         </h>
         </font>
         <?php
-            $dsn = 'mysql:dbname=tb230076db;host=localhost';
-            $user = 'tb-230076';
-            $password = 'ru8FEnHWEw';
+            $dsn = 'DB';
+            $user = 'ユーザー名';
+            $password = 'パスワード';
             $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
             // ↑データベース作成
             $sql = "CREATE TABLE IF NOT EXISTS keijiban"
